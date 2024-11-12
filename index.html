@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM manipulation</title>
+    <style>
+      .correct {
+        background-color: green;
+        color: white;
+      }
+      .wrong {
+        background-color: red;
+        color: white;
+      }
+      .question {
+        margin-bottom: 20px;
+      }
+      .answer {
+        display: block;
+        margin: 5px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button id="hideButton">Hide Text</button>
+
+    <div id="textDiv">
+      This is the text that will be hidden when you press the button.
+    </div>
+    <div id="quizContainer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
